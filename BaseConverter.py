@@ -5,8 +5,6 @@ from ttkbootstrap.dialogs import Messagebox
 from ttkbootstrap.scrolled import ScrolledText
 from tkinter import StringVar
 import math
-import os
-import sys
 import random
 import clipboard
 import smtplib
@@ -14,13 +12,8 @@ import pyqrcode
 from pyqrcode import QRCode
 import socket
 
-# getting whare script runs
-main_path = os.path.abspath(sys.argv[0])
-adding_path = main_path.split("\\")[:-1]
-usersPath = "\\".join(adding_path)
-
 # getting font.txt path
-path0 = usersPath + "\\font.txt"
+path0 = "font.txt"
 
 with open(path0, "r") as file:
     data = file.read()
@@ -1752,4 +1745,5 @@ frame4.place(relx=(rel_X0+4.2), rely=0.85, relwidth=0.7, relheight=0.1)
 
 
 app.mainloop()
+
 
