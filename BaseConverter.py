@@ -828,7 +828,7 @@ def help_user():
             backwords = 1
 
 
-pathData = usersPath + "\\data.txt"
+pathData == "data.txt"
 with open(pathData, "r") as file:
     userSelected = file.read()
 
@@ -1745,5 +1745,6 @@ frame4.place(relx=(rel_X0+4.2), rely=0.85, relwidth=0.7, relheight=0.1)
 
 
 app.mainloop()
+
 
 
