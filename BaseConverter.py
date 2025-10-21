@@ -11,7 +11,6 @@ import random
 import clipboard
 import smtplib
 import pyqrcode
-import png
 from pyqrcode import QRCode
 import socket
 
@@ -1753,3 +1752,4 @@ frame4.place(relx=(rel_X0+4.2), rely=0.85, relwidth=0.7, relheight=0.1)
 
 
 app.mainloop()
+
